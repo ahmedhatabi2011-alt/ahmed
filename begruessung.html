@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Namensbegrüßung</title>
+</head>
+<body>
+    <h1>Willkommen!</h1>
+
+    <label for="name">Wie heißt du?</label>
+    <input type="text" id="name" placeholder="Dein Name">
+    <button onclick="begruesse()">Senden</button>
+
+    <p id="ausgabe"></p>
+
+    <script>
+        function begruesse() {
+            let name = document.getElementById("name").value;
+            document.getElementById("ausgabe").innerText =
+                "Hallo, " + name + "! Schön, dich zu sehen.";
+        }
+    </script>
+</body>
+</html>
+ahmed liebt seine mutter 
+
+Ahmad hatabi
